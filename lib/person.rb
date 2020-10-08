@@ -3,4 +3,7 @@ class Person
 def initialze(attributes)
   if attributes
     attributes.each do {|key,value| self.send("#{key}=", value)
+    end
+  end
+end
 end
